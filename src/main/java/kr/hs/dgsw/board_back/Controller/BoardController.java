@@ -1,13 +1,10 @@
 package kr.hs.dgsw.board_back.Controller;
 
 import kr.hs.dgsw.board_back.Domain.Board;
-import kr.hs.dgsw.board_back.Domain.User;
 import kr.hs.dgsw.board_back.Repository.BoardRepository;
-import kr.hs.dgsw.board_back.Repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import javax.annotation.PostConstruct;
 import java.util.List;
 import java.util.Optional;
 
